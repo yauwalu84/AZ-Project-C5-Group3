@@ -1,0 +1,69 @@
+
+/*** Hero CSS Section Mobile ***/
+.hero {
+    position: relative;
+    background-image: url("../images/slider-3.jpg");
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    background: #000000AB;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    top: 110px;
+    margin-left: 20px;
+}
+
+.hero-slogan {
+    border-bottom: 1px solid #C82424;
+    width: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.hero-title {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.hero-text {
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.hero-btn {
+    color: #fff;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: merriweather;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.consulting-btn {
+    background-color: #C82424;
+    border: 1px solid #000;
+    margin-right: 25px;
+}
+
+.learn-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}

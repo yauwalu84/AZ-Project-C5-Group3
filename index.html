@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm Landing page</title>
+
+    
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+
+    <!-- Metadata for documentation -->
+    <meta name="description" content="A landing page using HTML and CSS as final project during the first stage of the Azubi africa Frontend Development program.">
+    <meta name="keywords" content="Frontend Development, #webdevelopment, Webdevelopment,  #internship, ">
+    <meta name="author" content="Yahaya Auwalu">
+
+    <!-- Links to css and javascript files  -->
+    <script src="./js/feather.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" >
+
+</head>
+<body>
+    
+    <header>
+        <!-- Page header section -->
+        <div class="top-container">
+            <!-- Top bar section  -->
+            <div class="top-bar">
+                <!-- Top Contact section -->
+                <div class="top-contact">
+                    <!-- email contact  -->
+                    <div class="email-contact">
+                        <i class="mail-icon" data-feather="mail"></i>
+                        <span>cohort5@azubiafrica.org</span>
+                    </div>
+                    <!-- phone number contact -->
+                    <div class="phone-contact">
+                        <i class="phone-icon" data-feather="phone"></i>
+                        <span>+233 1234 56 79</sp>
+                    </div>
+                </div>
+                <!-- Button links Section -->
+                <div class="button-links">
+                    <!-- Header social links section -->
+                    <div class="social-links">
+                        <div class="icon-container">
+                            <i class="custom-icon" data-feather="facebook"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="custom-icon" data-feather="twitter"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="custom-icon" data-feather="instagram"></i>
+                        </div>
+
+                    </div>
+                    <!--- Get a schedule button section -->
+                    <div class="schedule-btn">
+                        <div>
+                            <button class="topbtn">Get a schedule</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <!-- Menu bar section -->
+            <div class="menu-bar">
+                <!-- logo section -->
+                <div class="logo">
+                    <img src="./images/logo.png" alt="companys logo">
+                </div>
+                <!-- menu links section -->
+                <nav>
+                    <div class="navicon">
+                        <i data-feather="menu" class="top-menu" id="openOverlay" onclick="openOverlay()"></i>
+                    </div>
+                    <div class="nav-items" >
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Partners</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Over Lay Section -->
+            <div class="overlay" id="overlay">
+                <div class="overlay-closeicon">
+                    <span class="hamburgerclose" id="closeOverlay" onclick="closeOverlay()">
+                        <i data-feather="x" class="closeicon"></i>
+                    </span>
+                </div >
+
+                <div class="hamburger-menuitems">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <!--  Page main body section-->
+    <main>
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="content">
+                <div class="hero-slogan">
+                    <p>Right way...</p>
+                </div>
+
+                <div class="hero-title">
+                    <h2>
+                        It’s Our Pride <br>
+                        To Fight For Your Dream
+                    </h2>
+                </div>
+
+                <div class="hero-text">
+                    <p>
+                        But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give 
+                        you a complete account of the system, and expound the actual 
+                        teachings of the great explorer of the truth.
+                    </p>
+                </div>
+                <div class="hero-btns">
+                    <button class="hero-btn consulting-btn">Free Consulting</button>
+                    <button class="hero-btn learn-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+         <!-- Card content section -->
+         <section class="cardcontent">
+            <div class="card-content">
+                <div>
+                    <p class="textheader">
+                        Court Performance
+                    </p>
+
+                    <i data-feather="home" class="description-icon"></i>
+
+                    <p class="textdescription">
+                        At vero eos et accusamus et iusto odio 
+                        dignissimos ducimus qui blanditiis 
+                        praesentium voluptatum deleniti atque.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="textheader">
+                        Document Review
+                    </p>
+
+                    <i data-feather="file-minus" class="description-icon"></i>
+
+                    <p class="textdescription">
+                        At vero eos et accusamus et iusto odio 
+                        dignissimos ducimus qui blanditiis 
+                        praesentium voluptatum deleniti atque.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="textheader">
+                        Expert Attorney
+                    </p>
+
+                    <i data-feather="anchor" class="description-icon"></i>
+
+                    <p class="textdescription">
+                        At vero eos et accusamus et iusto odio 
+                        dignissimos ducimus qui blanditiis 
+                        praesentium voluptatum deleniti atque.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="textheader">
+                        Case Dismissed
+                    </p>
+
+                    <i data-feather="bell" class="description-icon"></i>
+
+                    <p class="textdescription">
+                        At vero eos et accusamus et iusto odio 
+                        dignissimos ducimus qui blanditiis 
+                        praesentium voluptatum deleniti atque.
+                    </p>
+                </div>
+            </div>
+         </section>
+
+          <!-- About Us section -->
+        <section class="aboutus">
+            <div class="aboutus-container">
+                <div class="img">
+                    <img src="./images/aboutimg.png" alt="about us">
+                </div>
+                <div class="aboutus-heading">
+                    <div class="heading-text">
+                        <p>About Us</p>
+                    </div>
+
+                    <h2>
+                        We Are Top Lawyers With <span>25 Years</span>   Of Experience
+                    </h2>
+
+                    <p>
+                        On the other hand, we denounce with righteous indignation and dislike 
+                        men who are so beguiled and demoralized by the charms of pleasure of the 
+                        moment, so blinded by desire, that  they cannot foresee the pain and trouble
+                        that are bound to ensue.
+                    </p>
+                    <div class="aboutus-listitems">
+                    <ul>
+                        <li>100% Success Rate</li>
+                        <li>No Need Extra Cost for Consultation</li>
+                        <li>Expert Legal Service</li>
+                        <li>Highly Recommendation</li>
+                        <li>Fast Support</li>
+                        <li>High Court Performance</li>
+                        <li>Free Counseling</li>
+                        <li>Quick Complete Case</li>
+                    </ul>
+                </div>
+
+                <div class="about-consultingbtn">
+                    <button>Free Consulting</button>
+                </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Video section -->
+         <section class="video">
+            <div class="video-container">
+                <div class="video-text">
+                    <h3>
+                        We Fight For Right, Meet Us To 
+                        Solve Your Legal Problem In Right 
+                        Way
+                    </h3>
+
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos
+                        ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corrupti quos dolores et quas 
+                        molestias excepturi sint occaecati cupiditate non 
+                        provident, similique sunt in culpa qui officia
+                        deserunt mollitia animi id est laborum et dolorum 
+                        fuga.
+                    </p>
+
+                    <img src="./images/signature.png" alt="Anthomas Darlos signature ">
+                    
+                    <p>
+                        Anthomas Darlos
+                    </p>
+
+                    <p>
+                        Senior Attorney & Founder of Atorn
+                    </p>
+                
+                </div>
+                <div class="video-clip">
+                    <img src="./images/videoimg.png" alt="video Clip">
+                </div>
+            </div>
+         </section>
+
+          <!-- Contact Us section -->
+        <section class="contactus">
+            <div class="contactus-container">
+                <div class="contact">
+                    <div class="contact-header">
+                        <h4>
+                            Contact Us Today, Get In Touch With
+                            Expert
+                        </h4>
+                    </div>
+
+                    <div class="contact-text">
+                        <p>
+                            On the other hand, we denounce with righteous indignation
+                            and dislike men who are so beguiled and demoralized by the
+                            charms of pleasure of the moment, so blinded by desire hat
+                            they cannot foresee the pain and trouble.
+                        </p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="phone-number">
+                            <p>
+                                Phone Number
+                            </p>
+                            <hr>
+                            <p>
+                                +233 1234 56 79
+                            </p>
+                        </div>
+
+                        <div class="social-contact">
+                            <p>
+                                Our Social Links
+                            </p>
+                            <hr>
+                            <div class="sociallinks">
+                                <div class="iconcontainer">
+                                    <i class="customicon" data-feather="facebook"></i>
+                                </div>
+                                <div class="iconcontainer">
+                                    <i class="customicon" data-feather="twitter"></i>
+                                </div>
+                                <div class="iconcontainer">
+                                    <i class="customicon" data-feather="instagram"></i>
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <h4 class="form-header">
+                        Get A Flexible Schedule
+                    </h4>
+                    <form action="#" method="post">
+                        <div class="form-container">
+                            <div class="inputitems grid1">
+
+                                <div class="inputlabel">
+                                    <i data-feather="user" class="iconcustom"></i> 
+                                </div>
+                                <div class="inputfield">
+                                    <input type="text" name="fullname" id="fullname" placeholder="Full name">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="inputitems grid2">
+                                <div class="inputlabel">
+                                    <i data-feather="mail" class="iconcustom"></i>
+                                </div>
+                                <div class="inputfield">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" >
+                                </div>
+                            </div>
+                            <br>
+                            <div class="inputitems grid3">
+                                <div class="inputlabel">
+                                    <i data-feather="phone" class="iconcustom"></i>
+                                </div>
+                                <div class="inputfield">
+                                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="inputitems grid4">
+                                <div class="inputlabel">
+                                    <i data-feather="calendar" class="iconcustom"></i>
+                                </div>
+
+                                <div class="inputfield">
+                                    <input type="date" name="date" id="date" placeholder="dd/mm/yyy">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="input-textarea grid5">
+                                <div class="inputlabel">
+                                    <i data-feather="message-square" class="iconcustom"></i>
+                                </div>
+                                <div class="inputtext">
+                                    <textarea name="message" id="message" placeholder="Message"  ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <input type="submit" value="Get Appointment" class="btnsubmit">
+                        
+                    </form>
+                </div>   
+            </div>
+        </section>
+
+         <!-- Our partners section -->
+         <section class="ourpartners">
+            
+         </section>
+    </main>
+
+    <!-- Page footer section -->
+    <footer>
+        
+    </footer>
+
+    <script>
+        feather.replace();
+
+        function openOverlay() {
+            document.getElementById("overlay").style.display = "flex";
+            document.getElementById("openOverlay").style.display = "none";
+        }
+
+        function closeOverlay() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("openOverlay").style.display = "block";
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+/*** VideoCSS section for mobil ***/
+
+.video-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 20px;
+}
+
+.video-text {
+    background-color: #C82424;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.video-text h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 20px 0;
+    color: #fff;
+}
+
+.video-text p {
+    font-style: normal;
+    line-height: normal;
+    margin: 0 0 20px 0;
+}
+
+.video-text p:nth-child(2) {
+    color: #F4D3D5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video-text p:nth-child(4) {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.video-text p:nth-child(5) {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video-text img {
+    width: 96px;
+    height: 39px;
+    margin: 0 0 20px 0;
+}
+
+.video-clip img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*** video CSS section for Tablet ***/
+
+@media (min-width: 601px) and (max-width: 1020px)  {
+    
+}
+
+
+/*** video CSS section for Desktop ***/
+@media (min-width:1021px) {
+    .video-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .video-text {
+        position: relative;
+        height: 450px;
+        top: 20px;
+        left: 50px;
+    }
+
+}

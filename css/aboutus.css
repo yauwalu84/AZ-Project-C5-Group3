@@ -1,0 +1,71 @@
+/*** Card CSS section for mobil ***/
+
+.aboutus-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 20px;
+
+}
+
+.img img {
+    width: 100%;
+}
+
+.aboutus-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.aboutus-heading p, li{
+    color: #6C6C6C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heading-text {
+    border-bottom: 1px solid #C82424;
+    width: 65px;
+    padding: 0 0 5px 0;
+
+}
+
+.aboutus-heading h2 {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 > span {
+    color: #C82424;
+}
+
+.aboutus-listitems li::before {
+    content: url(../images/check-square.svg);
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;    
+}
+
+.about-consultingbtn button{
+    width: 124px;
+    height: 38px;
+    color: #fff;
+    background-color: #C82424;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/*** Card CSS section for Desktop ***/
+@media (min-width:1021px) {
+   .aboutus-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+   }
+}
