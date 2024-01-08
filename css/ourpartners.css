@@ -1,0 +1,90 @@
+/*** VideoCSS section for mobil ***/
+
+.ourpartners-container {
+    margin: 40px;
+    
+}
+
+div.ourpartners-heading  {
+   margin: 10px;
+}
+
+.ourpartners-header p {
+    color: #6C6C6C;
+    font-size: 12px;
+    text-align: center;
+}
+
+.ourpartners-header hr {
+    margin: auto;
+}
+
+.ourpartners-text {
+    margin: 20px 0;
+}
+
+.ourpartners-text p {
+    color: #000;
+    font-size: 25px;
+}
+
+.container-set1, .container-set2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+
+img {
+    width: 150px;
+    height: 30px;
+}
+
+
+/*** video CSS section for Tablet ***/
+
+@media (min-width: 601px) and (max-width: 1020px)  {
+    .ourpartners-text {
+        margin: 20px 5%;
+
+    }
+
+    .ourpartners-text p {
+        margin: 0 10%;text-align: center;    
+    }
+
+    .ourpartners-logo {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo1, .logo3 {
+        margin: 0 20px 0 0;
+    }
+}
+
+
+/*** video CSS section for Desktop ***/
+@media (min-width:1021px) {
+   
+    .ourpartners-text {
+        margin: 20px 20%;
+
+    }
+
+    .ourpartners-text p {
+        margin: 0 10%;
+        text-align: center;    
+    }
+
+    .ourpartners-logo {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo1, .logo3 {
+        margin: 0 70px 0 0;
+    }
+}
+
+

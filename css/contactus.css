@@ -43,12 +43,6 @@ p, h4 {
     margin: 0 0 20px 0;    
 }
 
-hr {
-    width: 80px;
-    background-color: #C82424;
-    color: #C82424;
-}
-
 .social-contact p:first-child {
     color: #fff;
     font-size: 15px;
