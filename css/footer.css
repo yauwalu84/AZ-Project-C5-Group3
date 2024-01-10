@@ -1,0 +1,110 @@
+/*** VideoCSS section for mobil ***/
+.footer {
+    background-color: #0F3041;
+}
+
+.footer-container {
+    margin: 30px;
+}
+
+.footer-logo img {
+    margin: 40px 0 20px 0;
+    width: 130px;
+    height: 60px;
+}
+
+.footer-text p{
+    color: #FFF;
+    font-size: 14px;
+}
+
+
+.info-heading {
+    color: #FFF;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.links-list {
+    margin: 20px 0 0 0;
+}
+
+.links-list a{
+    color: #FFF;
+    font-size: 14px;
+}
+
+.contactinfo {
+    display: flex;
+}
+
+.contactinfo p{
+    color: #FFF;
+    font-size: 14px;
+}
+
+.customzed-icon {
+    color: #FFF;
+    margin: 0 10px 0 0;
+}
+
+.copyright-container {
+    border-top: 0.6px solid #F9F9F9;
+    background: #0F3041;
+}
+.copyright-container p {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-text {
+    padding: 0 10px;
+}
+
+/*** video CSS section for Tablet ***/
+
+@media (min-width: 601px) and (max-width: 1020px)  {
+    .footer-container {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        justify-content: space-between;
+    }
+
+    .other-information {
+        margin: 35px 0 0 0;
+    }
+
+    .services-contact {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-content: space-between;
+        margin: 20px 0 0 0;
+    }
+
+
+}
+
+
+/*** video CSS section for Desktop ***/
+@media (min-width:1021px) {
+   .footer-container {
+        display: grid;
+        grid-template-columns: 40% auto auto;
+   }
+
+   .services-contact {
+        display: flex;
+        justify-content: space-between;
+    
+   }
+
+   .services-contact, .other-information {
+        margin: 35px 0 0 0; 
+    }
+
+}
+
+
